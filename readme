@@ -1,0 +1,45 @@
+Steps to Run This Code
+Step 1: Install Python
+
+    Make sure you have Python 3.13 installed on your system.
+    Check your version using:
+
+    python --version
+
+Step 2: Set Up an IDE
+
+    Use any IDE of your choice — for example:
+
+    Visual Studio Code
+
+    PyCharm
+
+    Jupyter Notebook (optional)
+
+Step 3: Create and Activate a Virtual Environment
+    🪟 For Windows
+    python -m venv venv
+    venv\Scripts\activate
+
+    🐧 For macOS / Linux
+    python3 -m venv venv
+    source venv/bin/activate
+
+
+    Once activated, your terminal prompt should show (venv) at the beginning.
+
+Step 4: Install Requirements
+
+    pip install -r requirements.txt
+
+Step 5: Set Your API Keys
+
+    Create a .env file in the project root directory and add your API keys, for example:
+
+    API_KEY=your_api_key_here
+
+Step 6: Run the Data Extraction Script
+    python data_extraction.py
+
+Step 7: Run the Streamlit App
+    streamlit run main.py
